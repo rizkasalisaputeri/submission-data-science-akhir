@@ -21,7 +21,7 @@ Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi ma
 
 ### Persiapan
 
-**Sumber data:** **Predict Students' Dropout and Academic Success** 
+**Sumber data:** Predict Students' Dropout and Academic Success
 (https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
 
 **Setup environment:**
