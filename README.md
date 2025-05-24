@@ -26,7 +26,6 @@ Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi ma
 
 **Setup environment:**
 
-Setup environment:
 ```
 # Instalasi dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn sqlite3
