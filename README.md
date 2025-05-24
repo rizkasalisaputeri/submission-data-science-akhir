@@ -91,16 +91,9 @@ https://submission-data-science-akhir.streamlit.app/
 ```
 File model telah disimpan sebagai model.pkl.
 
-### Conclusion
-
-Siap! Berikut versi yang **tidak terlalu panjang tapi tetap padat isinya**, cocok untuk bagian conclusion laporan:
-
----
-
 ## Conclusion
 
 Hasil analisis menunjukkan bahwa beberapa faktor seperti kepemilikan beasiswa, status sebagai debitur, jenis kelamin, dan performa akademik berpengaruh terhadap kemungkinan mahasiswa mengalami dropout. Visualisasi mengungkap bahwa mahasiswa tanpa beasiswa dan yang memiliki utang lebih banyak yang dropout, serta laki-laki cenderung lebih rentan. Selain itu, rasio kelulusan mata kuliah juga menjadi indikator penting. Model prediksi yang dibangun menggunakan Random Forest menghasilkan akurasi sebesar 86%, yang cukup baik untuk membantu institusi mengidentifikasi mahasiswa berisiko dan melakukan intervensi lebih awal.
-
 
 ### Rekomendasi Action Items
 
