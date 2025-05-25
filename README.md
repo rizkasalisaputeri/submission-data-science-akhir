@@ -39,7 +39,7 @@ docker run -d ^
   metabase/metabase
 
 **Menambahkan Data Source SQLite**
-** Setelah Metabase jalan: **
+**Setelah Metabase jalan:**
 **1. Masuk ke Admin settings → Databases → Add database**
 **2. Pilih SQLite**
 **3. Masukkan Database file path:**
