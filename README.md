@@ -2,7 +2,7 @@
 
 ## Business Understanding
 
-**Jaya Jaya Institut** merupakan institusi pendidikan tinggi yang mengalami tantangan serius terkait tingginya tingkat mahasiswa yang tidak menyelesaikan studi (dropout). Hal ini tidak hanya berdampak pada reputasi institusi, tetapi juga pada efisiensi penggunaan sumber daya pendidikan.
+Jaya Jaya Institut merupakan institusi pendidikan tinggi yang mengalami tantangan serius terkait tingginya tingkat mahasiswa yang tidak menyelesaikan studi (dropout). Hal ini tidak hanya berdampak pada reputasi institusi, tetapi juga pada efisiensi penggunaan sumber daya pendidikan.
 
 Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi mahasiswa yang berisiko tinggi melakukan dropout, agar bisa diberikan dukungan lebih awal. Solusi berbasis data science diperlukan untuk menyelesaikan permasalahan ini.
 
