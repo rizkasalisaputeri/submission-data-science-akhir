@@ -30,6 +30,22 @@ Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi ma
 # Instalasi dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn sqlite3
 
+# Jalankan Metabase (dengan Docker)
+docker run -d ^
+  --name <nama_kontainer> ^
+  -p 3000:3000 ^
+  -v "<path_local_proyek>:/<direktori di kontainer>" ^
+  -e "MB_DB_FILE=/<direktori di kontainer>/metabase.db" ^
+  metabase/metabase
+
+**Menambahkan Data Source SQLite**
+** Setelah Metabase jalan: **
+**1. Masuk ke Admin settings → Databases → Add database**
+**2. Pilih SQLite**
+**3. Masukkan Database file path:**
+  /<direktori_di_kontainer>/data_mahasiswa.db
+**4. Klik Save**
+
 ```
 
 ## Business Dashboard
@@ -55,26 +71,6 @@ Dashboard ini digunakan untuk:
 - Menganalisis faktor-faktor seperti gender dan beasiswa
 - Memberi insight kepada pihak akademik untuk penanganan lebih awal terhadap potensi dropout
 bash
-
-
-```
-
-docker run -d ^
-  --name <nama_kontainer> ^
-  -p 3000:3000 ^
-  -v "<path_local_proyek>:/<direktori di kontainer>" ^
-  -e "MB_DB_FILE=/<direktori di kontainer>/metabase.db" ^
-  metabase/metabase
-
-**Menambahkan Data Source SQLite**
-** Setelah Metabase jalan: **
-**1. Masuk ke Admin settings → Databases → Add database**
-**2. Pilih SQLite**
-**3. Masukkan Database file path:**
-  /<direktori_di_kontainer>/data_mahasiswa.db
-**4. Klik Save**
-
-```
 
 Akses Dashboard:
 ```
