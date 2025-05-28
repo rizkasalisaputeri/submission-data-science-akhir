@@ -52,9 +52,6 @@ Dashboard ini digunakan untuk:
 - Memberi insight kepada pihak akademik untuk penanganan lebih awal terhadap potensi dropout
 
 ```
-# Instalasi dependencies
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn sqlite3
-
 # Jalankan Metabase (dengan Docker)
 docker run -d ^
   --name <nama_kontainer> ^
