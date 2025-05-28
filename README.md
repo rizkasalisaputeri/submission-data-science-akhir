@@ -94,6 +94,13 @@ Untuk mengakses prototype streamlit:
 https://submission-data-science-akhir.streamlit.app/
 
 ```
+
+Untuk mengakses prototype streamlit secara lokal:
+
+```
+streamlit run app.py
+
+```
 File model telah disimpan sebagai model.pkl.
 
 ## Conclusion
