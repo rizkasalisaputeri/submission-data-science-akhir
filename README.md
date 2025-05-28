@@ -21,9 +21,10 @@ Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi ma
 
 ### Persiapan
 
-**Sumber data:**  
-Dataset yang digunakan berasal dari file `data.csv`, yang merupakan kumpulan data bernama "Students' Performance" dari institusi pendidikan tinggi. Dataset ini mencakup informasi mahasiswa saat pendaftaran (seperti jalur akademik, demografi, dan faktor sosial-ekonomi) serta performa akademik pada akhir semester pertama dan kedua. Data ini digunakan untuk membangun model klasifikasi guna memprediksi dropout dan keberhasilan akademik mahasiswa, meliputi jurusan seperti agronomi, desain, pendidikan, keperawatan, jurnalisme, manajemen, pelayanan sosial, dan teknologi. Sumber dataset dapat diakses di:  
-https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md
+**Sumber Data:**  
+Dataset yang digunakan berasal dari file `data.csv`, yaitu kumpulan data bernama "Students' Performance" dari institusi pendidikan tinggi. Dataset mencakup informasi demografi, sosial-ekonomi, dan performa akademik mahasiswa pada semester awal.  
+Sumber dataset:  
+[https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv)
 
 **Setup environment:**
 
