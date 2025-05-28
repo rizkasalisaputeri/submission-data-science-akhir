@@ -21,10 +21,14 @@ Sebagai bentuk antisipasi, diperlukan sistem prediktif untuk mengidentifikasi ma
 
 ### Persiapan
 
-Sumber data: Predict Students' Dropout and Academic Success
-(https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success)
+**Sumber data:**  
+Dataset yang digunakan berasal dari file `data.csv`, yang merupakan kumpulan data bernama "Students' Performance" dari institusi pendidikan tinggi. Dataset ini mencakup informasi mahasiswa saat pendaftaran (seperti jalur akademik, demografi, dan faktor sosial-ekonomi) serta performa akademik pada akhir semester pertama dan kedua. Data ini digunakan untuk membangun model klasifikasi guna memprediksi dropout dan keberhasilan akademik mahasiswa, meliputi jurusan seperti agronomi, desain, pendidikan, keperawatan, jurnalisme, manajemen, pelayanan sosial, dan teknologi. Sumber dataset dapat diakses di:  
+https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md
 
-Setup environment:
+**Setup environment:**
+
+
+**Setup environment:**
 
 ```
 # Instalasi dependencies
@@ -93,7 +97,7 @@ File model telah disimpan sebagai model.pkl.
 
 ## Conclusion
 
-Hasil analisis menunjukkan bahwa beberapa faktor seperti kepemilikan beasiswa, status sebagai debitur, jenis kelamin, dan performa akademik berpengaruh terhadap kemungkinan mahasiswa mengalami dropout. Visualisasi mengungkap bahwa mahasiswa tanpa beasiswa dan yang memiliki utang lebih banyak yang dropout, serta laki-laki cenderung lebih rentan. Selain itu, rasio kelulusan mata kuliah juga menjadi indikator penting. Model prediksi yang dibangun menggunakan Random Forest menghasilkan akurasi sebesar 86%, yang cukup baik untuk membantu institusi mengidentifikasi mahasiswa berisiko dan melakukan intervensi lebih awal.
+Hasil analisis menunjukkan bahwa tingkat dropout mahasiswa cukup tinggi, dipengaruhi oleh beberapa faktor utama seperti kepemilikan beasiswa, status sebagai debitur, jenis kelamin, dan performa akademik. Visualisasi pada dashboard mengungkap bahwa mahasiswa tanpa beasiswa lebih sering dropout, begitu juga dengan mahasiswa yang memiliki utang. Selain itu, mahasiswa laki-laki memiliki tingkat dropout lebih tinggi dibandingkan perempuan. Rasio kelulusan mata kuliah (unit disetujui vs terdaftar) juga menjadi indikator penting dalam menentukan risiko. Model prediksi yang dibangun menggunakan Random Forest menghasilkan akurasi sebesar 86%, yang cukup baik untuk membantu institusi mengidentifikasi mahasiswa berisiko dan melakukan intervensi lebih awal.
 
 ### Rekomendasi Action Items
 
