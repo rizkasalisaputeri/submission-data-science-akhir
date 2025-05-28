@@ -38,28 +38,18 @@ pip install -r requirements.txt
 ```
 
 ## Business Dashboard
-
-Business dashboard ini dibuat menggunakan Metabase yang dari beberapa visualisasi utama berikut:
-
-1. **Distribusi Status Mahasiswa (Donut Chart)**  
-   Menampilkan proporsi mahasiswa yang **Dropout**, **Graduate**, dan masih **Enrolled**. Terlihat bahwa sekitar 32,1% mahasiswa mengalami dropout — sebuah angka yang cukup signifikan.
-
-2. **Status Berdasarkan Gender**  
-   Visualisasi ini menunjukkan perbedaan distribusi status mahasiswa berdasarkan jenis kelamin. Terlihat bahwa proporsi dropout lebih tinggi pada mahasiswa laki-laki.
-
-3. **Kepemilikan Beasiswa dan Status Mahasiswa**  
-   Bar chart horizontal yang membandingkan status mahasiswa berdasarkan apakah mereka menerima beasiswa atau tidak. Terdapat indikasi bahwa mahasiswa dengan beasiswa cenderung memiliki tingkat dropout yang lebih rendah.
-
-4. **Kepemilikan Beasiswa dan Status Debtor**  
-   Visualisasi ini mengeksplorasi hubungan antara mahasiswa yang menerima beasiswa dengan status utangnya. Ditemukan bahwa mayoritas mahasiswa yang tidak menerima beasiswa memiliki status sebagai debtor.
+Dashboard dibuat menggunakan Metabase dan berisi beberapa visualisasi utama :
+1. Distribusi status mahasiswa (Dropout, Graduate, Enrolled) di institusi
+2. Pengaruh Jenis Kelamin terhadap Dropout
+3. Hubungan mahasiswa yang memiliki utang dengan Risiko Dropout
+4. Perbedaan Proporsi Dropout Berdasarkan Beasiswa
 
 ### Fungsi Dashboard
 
 Dashboard ini digunakan untuk:
 - Mengidentifikasi kelompok mahasiswa yang berisiko tinggi dropout
-- Menganalisis faktor-faktor seperti gender dan beasiswa
+- Menganalisis faktor-faktor seperti gender, utang, dan beasiswa
 - Memberi insight kepada pihak akademik untuk penanganan lebih awal terhadap potensi dropout
-bash
 
 ```
 # Instalasi dependencies
